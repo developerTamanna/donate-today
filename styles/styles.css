@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+}
+
+/* start banner section */
+.banner{
+    margin: 1536px;
+    width: 100%;
+    height: 90vh;
+    margin: 0px auto;
+    background: linear-gradient(0.00deg, rgb(18, 18, 18),rgba(18, 18, 18, 0) 300%), url(../images/donation0.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  
+}
+.banner-container {
+    /* display: flex; */
+    /* text-align: center; */
+    padding: 176px 301px 337px 301px;
+}
+.banner-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 79px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.banner-description{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 20px;
+}
+.banner-btn{
+     padding: 16px 12px 16px 12px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(255, 89, 89);
+    margin-top: 30px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+
+/* donate-today section start */
+.donate-today{
+    max-width: 1536px;
+    width: 80%;
+    margin: 130px auto auto auto;
+     
+}
+
+.donate-today-title{
+    color: rgb(18, 18, 18);
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.donate-today-description{
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+.donate-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 22px;
+    padding: 50px;
+    
+}
+
+
+.donate-tody-card-1{
+    border-radius: 5px;
+    background: rgb(250, 250, 250);
+    padding: 43px 24px 43px 24px;
+}
+
+.donate-tody-card-1 h5{
+    color: rgb(112, 112, 112);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.donate-tody-card-2{
+    border-radius: 5px;
+    border: 2px solid rgb(255, 89, 89);
+    background: rgb(255, 238, 238);
+    padding: 43px 24px 43px 24px;
+    box-sizing: border-box;
+}
+
+
+.card-2-tk{
+    color: rgb(255, 89, 89);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.other{
+    text-align: center;
+}
+
+.line{
+width: 50%;
+margin: 10px auto;
+border: 1px solid rgb(218, 218, 218);
+}
+
+.other-amount{
+color: rgb(179, 179, 179);
+font-family: Poppins;
+font-size: 0.90rem;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+
+.other-button{
+    padding: 16px 12px 16px 12px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(255, 89, 89);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+
+@media screen and (max-width:576px){
+    .banner{
+        height: auto;
+    }
+    .banner-container{
+        padding: 0px;
+    }
+    .donate-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 22px;
+        padding: 0px;
+        margin-top: 40px;
+        
+    }
+    .other-amount{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width:567px)and (max-width:992px) {
+    .banner{
+        height: auto;
+    }
+    .banner-container{
+        padding: 0px;
+    }
+   
+}
