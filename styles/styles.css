@@ -81,7 +81,7 @@
 .donate-today-description{
     color: rgb(112, 112, 112);
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0px;
@@ -167,6 +167,78 @@ text-align: center;
     margin-top: 25px;
 }
 
+/* start our plan section */
+
+.our-plan{
+    max-width: 1536px;
+    width: 90%;
+    margin: 130px auto auto auto;
+}
+
+.our-plan-title{
+    color: rgb(18, 18, 18);
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.our-plan-description{
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size:1rem ;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 20px;
+}
+.our-plan-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.our-plan-crd{
+    padding: 40px;
+    border-radius: 5px;
+    background: rgba(79, 157, 166, 0.1);
+}
+.active-1{
+
+    background: rgba(255, 89, 89, 0.1);
+}
+.active-2{
+    background: rgb(255, 253, 234);
+}
+.plan-crd-title{
+    color: rgb(18, 18, 18);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.plan-crd-description{
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 16px;
+}
+
+
+
+
+
 
 @media screen and (max-width:576px){
     .banner{
@@ -186,6 +258,11 @@ text-align: center;
     .other-amount{
         margin-top: 20px;
     }
+    /* start our plane section */
+    .our-plan-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+    }
 }
 
 @media screen and (min-width:567px)and (max-width:992px) {
@@ -195,5 +272,8 @@ text-align: center;
     .banner-container{
         padding: 0px;
     }
-   
+    .our-plan-container{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 40px;
+    }
 }
